@@ -18,9 +18,6 @@
     <color name="text_muted">#9CA3AF</color>
     <color name="white">#FFFFFF</color>
 
-    <!-- Navigation -->
-    <color name="nav_item_color">#0B3C5D</color>
-
     <!-- Status Indicators -->
     <color name="status_pending">#F59E0B</color>
     <color name="status_approved">#10B981</color>
