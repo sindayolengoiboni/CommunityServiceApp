@@ -2,11 +2,13 @@
     <!-- Primary Brand Colors (USIU Blue and Gold Palette) -->
     <color name="primary">#0B3C5D</color>
     <color name="primary_variant">#07283F</color>
+    <color name="usiu_blue">#0B3C5D</color>
     <color name="secondary">#DDA01E</color>
     <color name="secondary_variant">#B8820B</color>
 
     <!-- Backgrounds & Surfaces -->
     <color name="background">#F8F9FA</color>
+    <color name="background_light">#F8F9FA</color>
     <color name="surface">#FFFFFF</color>
     <color name="card_stroke">#E0E0E0</color>
     
@@ -15,6 +17,9 @@
     <color name="text_secondary">#4B5563</color>
     <color name="text_muted">#9CA3AF</color>
     <color name="white">#FFFFFF</color>
+
+    <!-- Navigation -->
+    <color name="nav_item_color">#0B3C5D</color>
 
     <!-- Status Indicators -->
     <color name="status_pending">#F59E0B</color>
