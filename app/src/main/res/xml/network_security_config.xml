@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Network Security Config
+    - Restricts cleartext (HTTP) traffic in production.
+    - Firebase and Google services already use HTTPS, so no exceptions needed.
+    - Add any debug overrides to res/xml/network_security_config_debug.xml and
+      reference it only in debug builds via a build-type-specific resource.
+-->
+<network-security-config>
+    <base-config cleartextTrafficPermitted="false">
+        <trust-anchors>
+            <certificates src="system" />
+        </trust-anchors>
+    </base-config>
+</network-security-config>

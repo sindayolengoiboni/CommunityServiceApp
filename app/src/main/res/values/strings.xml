@@ -1,0 +1,145 @@
+<resources>
+    <string name="app_name">USIU Community Service</string>
+    <string name="course_code">CMS 3700 M</string>
+
+    <!-- Auth -->
+    <string name="login_title">Sign In</string>
+    <string name="register_title">Student Registration</string>
+    <string name="email_hint">University Email (@usiu.ac.ke)</string>
+    <string name="password_hint">Password</string>
+    <string name="full_name_hint">Full Name</string>
+    <string name="student_id_hint">Student ID (e.g. 654321)</string>
+    <string name="phone_hint">Phone Number</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="sign_in_button">Sign In</string>
+    <string name="register_button">Register as Student</string>
+    <string name="no_account">Need to register as a student? Sign up</string>
+    <string name="have_account">Already registered? Sign in</string>
+
+    <!-- Tracks -->
+    <string name="service_track_hands_on">Hands-on Community Service (Full-time)</string>
+    <string name="service_track_project">Project-based Service (Part-time / Working)</string>
+    <string name="status_full_time">Full-Time Student</string>
+    <string name="status_part_time">Part-Time Student</string>
+    <string name="status_working">Working Student</string>
+
+    <!-- Navigation — Student -->
+    <string name="nav_opportunities">Opportunities</string>
+    <string name="nav_applications">Applications</string>
+    <string name="nav_diary">Diary &amp; Hours</string>
+    <string name="nav_reports">Reports</string>
+    <string name="nav_profile">Profile</string>
+
+    <!-- Navigation — Supervisor -->
+    <string name="nav_supervision">Supervision</string>
+
+    <!-- Navigation — Coordinator -->
+    <string name="nav_coord_orgs">Organizations</string>
+    <string name="nav_coord_eligibility">Eligibility</string>
+    <string name="nav_coord_registrations">Registrations</string>
+    <string name="nav_coord_supervision">Supervision</string>
+    <string name="nav_coord_settings">Settings</string>
+
+    <!-- Navigation — Lecturer -->
+    <string name="nav_lecturer_progress">Progress</string>
+    <string name="nav_lecturer_reports">Reports</string>
+
+    <!-- Navigation — Admin -->
+    <string name="nav_admin_users">Users</string>
+    <string name="nav_admin_audit">Audit</string>
+
+    <!-- Shared nav labels -->
+    <string name="nav_organizations">Organizations</string>
+    <string name="nav_eligibility">Eligibility</string>
+    <string name="nav_settings">Settings</string>
+    <string name="nav_users">Users</string>
+    <string name="nav_audit">Audit Logs</string>
+
+    <!-- Hours and Progress -->
+    <string name="required_hours_label">Required Hours: 90</string>
+    <string name="recorded_hours_label">Recorded Hours</string>
+    <string name="verified_hours_label">Verified Hours</string>
+    <string name="remaining_hours_label">Remaining Hours</string>
+    <string name="label_verified_hours">Verified Hours</string>
+    <string name="label_absences">Absences</string>
+    <string name="label_absences_summary">Site: %1$d | Class: %2$d</string>
+    <string name="label_student_count">%1$d students</string>
+    <string name="label_student_progress">Student Progress</string>
+
+    <!-- Sign Out -->
+    <string name="sign_out">Sign Out</string>
+    <string name="sign_out_confirm_message">Are you sure you want to sign out?</string>
+
+    <!-- Role titles -->
+    <string name="role_admin">Admin Panel</string>
+    <string name="role_coordinator">Coordinator Panel</string>
+    <string name="role_lecturer">Lecturer Panel</string>
+    <string name="role_supervisor">Supervisor Panel</string>
+
+    <!-- Audit Log -->
+    <string name="title_audit_log">Audit Log</string>
+    <string name="error_loading_audit_logs">Failed to load audit logs. Please try again.</string>
+    <string name="msg_no_audit_records">No audit records found.</string>
+
+    <!-- Report Review — Lecturer -->
+    <string name="label_report_info">Report Information</string>
+    <string name="label_student">Student</string>
+    <string name="label_report_type">Report Type</string>
+    <string name="label_submitted">Submitted</string>
+    <string name="label_submitted_prefix">Submitted: %1$s</string>
+    <string name="label_grade_feedback">Grade &amp; Feedback</string>
+    <string name="label_grade_value">Grade: %1$d / 100</string>
+    <string name="hint_review_status">Review Status</string>
+    <string name="hint_grade">Grade (0 &#8211; 100)</string>
+    <string name="helper_grade">Enter a numeric score between 0 and 100</string>
+    <string name="hint_feedback">Feedback / Comments</string>
+    <string name="action_view_file">View Uploaded File</string>
+    <string name="action_submit_grade">Submit Grade &amp; Feedback</string>
+    <string name="action_review">Review</string>
+    <string name="title_grade_feedback">Grade Report</string>
+    <string name="msg_review_submitted">Review submitted successfully.</string>
+    <string name="msg_no_file_attached">No file attached to this report.</string>
+    <string name="error_invalid_report">Invalid report ID.</string>
+    <string name="error_select_status">Please select a review status.</string>
+    <string name="error_grade_required">Grade is required.</string>
+    <string name="error_grade_range">Grade must be between 0 and 100.</string>
+    <string name="error_grade_invalid">Please enter a valid number.</string>
+    <string name="error_feedback_required">Please provide written feedback.</string>
+    <string name="msg_no_reports">No reports found.</string>
+    <string name="hint_filter_by_status">Filter by Status</string>
+
+    <!-- Student Progress — Lecturer -->
+    <string name="hint_search_students">Search by name or student ID</string>
+    <string name="msg_no_students_found">No students found.</string>
+    <string name="label_student_id_prefix">ID: %1$s</string>
+
+    <!-- User Management — Admin -->
+    <string name="title_edit_user_role">Edit User Role</string>
+    <string name="label_user_info">User Information</string>
+    <string name="label_full_name">Full Name</string>
+    <string name="label_email">Email</string>
+    <string name="label_current_role">Current Role</string>
+    <string name="label_account_status">Account Status</string>
+    <string name="label_update_role_status">Update Role &amp; Status</string>
+    <string name="hint_new_role">New Role</string>
+    <string name="hint_new_status">New Account Status</string>
+    <string name="hint_change_reason">Reason for Change</string>
+    <string name="hint_search_users">Search by name or email</string>
+    <string name="hint_filter_by_role">Filter by Role</string>
+    <string name="action_save_changes">Save Changes</string>
+    <string name="action_edit_role">Edit Role / Status</string>
+    <string name="action_confirm">Confirm</string>
+    <string name="title_confirm_changes">Confirm Changes</string>
+    <string name="msg_confirm_role_change">Change %1$s to role %2$s with status %3$s?</string>
+    <string name="title_system_audit">System Audit Log</string>
+    <string name="msg_no_users_found">No users found.</string>
+    <string name="msg_user_updated">User updated successfully.</string>
+    <string name="error_user_not_found">User not found.</string>
+    <string name="error_cannot_edit_self">You cannot change your own role.</string>
+    <string name="error_select_role">Please select a role.</string>
+    <string name="error_reason_required">Please provide a reason for this change.</string>
+
+    <!-- Common -->
+    <string name="error_loading_data">Failed to load data. Please try again.</string>
+    <string name="error_submit_failed">Submission failed. Please try again.</string>
+</resources>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_coord_orgs"
+        android:title="Organizations"
+        android:icon="@android:drawable/ic_menu_manage" />
+    <item
+        android:id="@+id/nav_coord_eligibility"
+        android:title="Eligibility"
+        android:icon="@android:drawable/ic_menu_view" />
+    <item
+        android:id="@+id/nav_coord_registrations"
+        android:title="Registrations"
+        android:icon="@android:drawable/ic_menu_agenda" />
+    <item
+        android:id="@+id/nav_coord_supervision"
+        android:title="Supervision"
+        android:icon="@android:drawable/ic_menu_mapmode" />
+    <item
+        android:id="@+id/nav_coord_settings"
+        android:title="Settings"
+        android:icon="@android:drawable/ic_menu_preferences" />
+</menu>

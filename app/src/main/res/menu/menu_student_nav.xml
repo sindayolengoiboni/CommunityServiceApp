@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_opportunities"
+        android:title="Opportunities"
+        android:icon="@android:drawable/ic_menu_search" />
+    <item
+        android:id="@+id/nav_applications"
+        android:title="Applications"
+        android:icon="@android:drawable/ic_menu_agenda" />
+    <item
+        android:id="@+id/nav_diary"
+        android:title="Diary &amp; Hours"
+        android:icon="@android:drawable/ic_menu_recent_history" />
+    <item
+        android:id="@+id/nav_reports"
+        android:title="Reports"
+        android:icon="@android:drawable/ic_menu_upload" />
+    <item
+        android:id="@+id/nav_profile"
+        android:title="Profile"
+        android:icon="@android:drawable/ic_menu_myplaces" />
+</menu>

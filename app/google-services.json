@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "670892191109",
+    "project_id": "community-service-app-38701",
+    "storage_bucket": "community-service-app-38701.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:670892191109:android:647ef066b8b747d0baa8ec",
+        "android_client_info": {
+          "package_name": "com.usiu.communityservice"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBdWvp8RG3-u6-4wzgYdhhLtZiLyfP3qB4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_supervisor_apps"
+        android:title="Applications"
+        android:icon="@android:drawable/ic_menu_agenda" />
+    <item
+        android:id="@+id/nav_supervisor_attendance"
+        android:title="Attendance"
+        android:icon="@android:drawable/ic_menu_today" />
+    <item
+        android:id="@+id/nav_supervisor_diary"
+        android:title="Verify Diary"
+        android:icon="@android:drawable/ic_menu_edit" />
+    <item
+        android:id="@+id/nav_supervisor_report_issue"
+        android:title="Report Issue"
+        android:icon="@android:drawable/ic_menu_info_details" />
+</menu>
