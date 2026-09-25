@@ -31,7 +31,7 @@ public class SettingsAndAuditRepository {
         void onError(Exception e);
     }
 
-    private SettingsAndAuditRepository() {
+    public SettingsAndAuditRepository() {
         this.db = FirebaseFirestore.getInstance();
     }
 
@@ -98,6 +98,19 @@ public class SettingsAndAuditRepository {
                 .orderBy("createdAt", Query.Direction.DESCENDING)
                 .get()
                 .addOnSuccessListener(snap -> callback.onSuccess(snap.toObjects(User.class)))
+                .addOnFailureListener(callback::onError);
+    }
+
+    public void getUserById(String uid, ItemCallback<User> callback) {
+        db.collection(Constants.COLL_USERS).document(uid)
+                .get()
+                .addOnSuccessListener(doc -> {
+                    if (doc.exists()) {
+                        callback.onSuccess(doc.toObject(User.class));
+                    } else {
+                        callback.onError(new Exception("User not found"));
+                    }
+                })
                 .addOnFailureListener(callback::onError);
     }
 
