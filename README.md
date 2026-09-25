@@ -1,6 +1,7 @@
-# USIU-Africa Community Service Management System (CMS 3700 M)
+# CMS Connect (CMS 3700 M)
+### USIU-Africa Community Service Management System
 
-An Android mobile application built for United States International University - Africa (USIU-Africa) to manage and streamline community service placements, attendance tracking, supervisory evaluations, report reviews, and administrative oversight.
+**CMS Connect** is an Android mobile application built for United States International University - Africa (USIU-Africa) to manage and streamline community service placements, attendance tracking, supervisory evaluations, report reviews, and administrative oversight.
 
 ---
 

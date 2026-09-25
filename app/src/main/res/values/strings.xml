@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">USIU Community Service</string>
+    <string name="app_name">CMS Connect</string>
     <string name="course_code">CMS 3700 M</string>
 
     <!-- Auth -->
